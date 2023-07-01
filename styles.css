@@ -1,0 +1,167 @@
+span, h3, sup, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #F7CD75;
+}
+.store{
+    width: 750px;
+    height: 400px;
+    background-color: #FFFFFF;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    overflow: hidden;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.20);
+}
+.section-wallets{
+    position: relative;
+    width: 250px;
+    height: 400px;
+    background-color: #F2F2F2;
+    padding-left: 30px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+.section-wallets:hover{
+    overflow-y: auto;
+}
+.section-wallets__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.section-wallets__title{
+    font-weight: 400;
+}
+.section-wallets__button-add{
+    position: absolute;
+    left: 190px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+.card{
+    width: 190px;
+    height: 100px;
+    border: 1px solid #E5E5E5;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.card:hover{
+    border: 1px solid #7A85BC;
+}
+.card:focus{
+    border: 1px solid #7A85BC;
+}
+.card__card-id{
+    color: #7F7D7C;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.card__card-valid{
+    color: #7F7D7C;
+    font-size: 13px;
+    font-weight: 500;
+}
+.section-shops{
+    position: relative;
+    width: 500px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.total-balance__cents{
+    margin-left: -5px;
+}
+.section-shops__total-balance{
+    position: absolute;
+    left: 350px;
+    width: 100px;
+    font-weight: 600;
+    font-size: 25px;
+}
+.section-shops__wrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.section-shops__title{
+    font-weight: 400;
+}
+.divide{
+    position: absolute;
+    border: none;
+    width: 440px;
+    height: 1px;
+    background-color: #E5E5E5;
+}
+.total-shops__button-add{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 55px;
+    border: 1px solid #E5E5E5;
+    background: transparent;
+    margin-right: 35px;
+    cursor: pointer;
+}
+.section-shops__total-shops{
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.total-shops__wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.total-shops__title-thing{
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 2.5px;
+}
+.total-shops__categorue-thing{
+    font-weight: 500;
+    font-size: 13px;
+    color: #C1C1C1;
+}
+.total-shops__total-price{
+    position: absolute;
+    left: 380px;
+    color: #8898C7;
+    font-weight: 600;
+}
+.green{
+    color: #8DCF62;
+}
+.section-shops:hover{
+    overflow-y: auto;
+}
+.fixed-2{
+    margin-top: 100px;
+}
+.fixed-3{
+    left: 390px;
+}
